@@ -1,0 +1,7 @@
+install solcjs
+compile .sol with solcjs
+
+
+7:10:12 / 1:07:54:30
+install ethers
+deploy contract with ethers
