@@ -1,0 +1,12 @@
+{
+  "name": "ethers-simple-storage-fcc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "compile": "yarn solcjs --bin --abi --include-path node_modules --base-path . -o ./build Simplestorage.sol"
+  },
+  "dependencies": {
+    "solc": "0.8.7-fixed"
+  }
+}
