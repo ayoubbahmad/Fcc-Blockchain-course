@@ -1,7 +1,10 @@
 install solcjs
 compile .sol with solcjs
 
-
-7:10:12 / 1:07:54:30
 install ethers
 deploy contract with ethers
+play with ethers.deploy args and wait for transaction receipt
+
+7:23:44 / 1:07:54:30
+deploy contract as a transaction
+
