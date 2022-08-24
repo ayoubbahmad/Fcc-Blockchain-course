@@ -4,7 +4,10 @@ compile .sol with solcjs
 install ethers
 deploy contract with ethers
 play with ethers.deploy args and wait for transaction receipt
-
-7:23:44 / 1:07:54:30
 deploy contract as a transaction
+interact with contract
 
+configure dotenv
+
+7:45:46 / 1:07:54:30
+encryptPrivateKey with password

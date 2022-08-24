@@ -1,1 +1,4 @@
 node_modules
+ethers-simple-storage-fcc/.env
+ethers-simple-storage-fcc/.encryptedKey.json
+.gitignore
