@@ -16,5 +16,28 @@ PRIVATE_KEY_PASSWORD=value node deploy.js
 
 NB: clear histoy bash commandes with: history -c 
 
+
+================================================
+********** NODE AS SERVICE PROVIDERS: **********
+================================================
+Alchemy
+QuickNode
+Moralis
+Infura
+================================================
+
 7:48:27 / 1:07:54:30
+
+Deploy a smart contract with alchemy on rinkeby testnet
+
+1 create and alchemy node
+2 connect deploy.js to alchemy node 
+PRIVATE_KEY from metamask
+RPC_URL from alchemy dashboard
+
+3 run deployment script
+4 go to rinkeby etherscan => verify and publish the contract
+	Add contract in contract section then publish it (specify solidity verson and stuff...)
+
+8:06:12 / 1:07:54:30
 
