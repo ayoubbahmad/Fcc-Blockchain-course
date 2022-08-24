@@ -14,4 +14,7 @@ encryptPrivateKey with password
 sending env vars from commande line:
 PRIVATE_KEY_PASSWORD=value node deploy.js
 
-7:45:46 / 1:07:54:30
+NB: clear histoy bash commandes with: history -c 
+
+7:48:27 / 1:07:54:30
+
