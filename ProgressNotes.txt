@@ -41,3 +41,12 @@ RPC_URL from alchemy dashboard
 
 8:06:12 / 1:07:54:30
 
+
+Use typeScript with ts-node
+
+Firt part Done √
+Ethrs JS
+8:20:19 / 1:07:54:30
+
+
+============ HARDHAT ======
