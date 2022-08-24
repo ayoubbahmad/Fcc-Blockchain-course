@@ -1,14 +1,12 @@
 const ethers = require("ethers");
 const fs = require("fs-extra");
 
+require("dotenv").config();
+
 async function main() {
-  const provider = new ethers.providers.JsonRpcProvider(
-    "http://127.0.0.1:7545"
-  );
-  const wallet = new ethers.Wallet(
-    "7f929d5ef4d764c5eb4223ec218f619a905fb17f1508c824e31239660f270b93",
-    provider
-  );
+  const provider = new ethers.providers.JsonRpcProvider(process.env.RPC_URL);
+  const wallet = new ethers.Wallet(process.env.PRIVATE_KEY, provider);
+
   const abi = fs.readFileSync(
     "./build/Simplestorage_sol_SimpleStorage.abi",
     "utf-8"
@@ -27,7 +25,7 @@ async function main() {
   //   Interact with abi
   let currentFavNumber = await contract.retrieve();
   console.log("Before: ", currentFavNumber.toString());
-  await contract.store(32);
+  await contract.store(21);
   currentFavNumber = await contract.retrieve();
   console.log("After: ", currentFavNumber.toString());
   // Define gas limite
