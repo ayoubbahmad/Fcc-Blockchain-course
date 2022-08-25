@@ -66,3 +66,8 @@ networks:{
 }
 Commande `yarn hardhat run scripts/deploy.ts --network [networkName(rinkeby in this case)]`
 
+
+8:54:54 / 1:07:54:30
+
+Use etherscan plugin to comunicate with its API
+NB: should signup
