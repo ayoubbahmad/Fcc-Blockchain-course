@@ -50,3 +50,24 @@ Ethrs JS
 
 
 ============ HARDHAT ======
+
+install compile and deploy with HARDHAT
+
+8:44:37 / 1:07:54:30
+
+Add networks to hardhat config file
+
+add networks to hardhat.config
+networks:{
+    rinkeby: {
+      url: process.env.RINKEBEY_RPC_URL,
+      accounts: [process.env.PRIVATE_KEY],
+    },
+}
+Commande `yarn hardhat run scripts/deploy.ts --network [networkName(rinkeby in this case)]`
+
+
+8:54:54 / 1:07:54:30
+
+Use etherscan plugin to comunicate with its API
+NB: should signup
